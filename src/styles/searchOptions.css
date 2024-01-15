@@ -1,0 +1,38 @@
+
+.SearchOptions{
+    display: flex;
+    flex-direction: column;
+    min-width: 28rem;
+    border-radius: 5px;
+    border: 1px solid silver;
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    height: 52vh;
+    overflow-y: scroll;
+    background: white;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.option img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.option p{
+    font-size: 12px;
+    color: gray;
+}
+
+.option:hover{
+    background: rgb(224, 224, 224);
+}
