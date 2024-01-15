@@ -14,7 +14,7 @@ A Small React Chip Component with below specifications
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/Chethan-b13/react-chip-component.git
 cd your-project
 npm install   # Install dependencies
 npm run dev    # Start the project
